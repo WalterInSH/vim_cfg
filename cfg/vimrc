@@ -5,3 +5,5 @@ set expandtab
 
 call pathogen#infect()
 
+nnoremap <F5> :GundoToggle<CR>
+
