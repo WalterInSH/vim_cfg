@@ -6,5 +6,5 @@ Firstly, you'll have to install pathogen. Click [here](https://github.com/tpope/
 ```
 cd ~
 git clone https://github.com/WalterInSH/dotfile.git
-ln -s .vim/cfg/.vimrc ~/.vimrc
+ln -s .vim/cfg/vimrc ~/.vimrc
 ```
