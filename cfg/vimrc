@@ -1,9 +1,12 @@
-set smartindent
-set tabstop=4
+
 set shiftwidth=4
 set expandtab
 
 call pathogen#infect()
 
-nnoremap <F5> :GundoToggle<CR>
+" airline
+let g:airline_detect_modified=1
+let g:airline#extensions#tabline#enabled = 1
 
+" nerdtree
+map <F2> :NERDTreeToggle<CR>
